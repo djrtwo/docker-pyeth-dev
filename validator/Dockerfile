@@ -1,4 +1,4 @@
-FROM ethresearch/pyethapp
+FROM djrtwo/pyethapp
 
 COPY default_data/config /root/default_config
 COPY filebeat.yml /etc/filebeat/filebeat.yml
